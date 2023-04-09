@@ -1,5 +1,6 @@
 {
   "name": "zitadel-on-aws",
+  "description": "Self-hosted Zitadel on AWS",
   "scripts": {
     "build": "npx projen build",
     "bundle": "npx projen bundle",
@@ -13,19 +14,17 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
-    "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
     "synth": "npx projen synth",
     "synth:silent": "npx projen synth:silent",
     "test": "npx projen test",
     "test:watch": "npx projen test:watch",
-    "upgrade": "npx projen upgrade",
     "watch": "npx projen watch",
     "projen": "npx projen"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
-    "@types/node": "^14",
+    "@types/node": "^16",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "aws-cdk": "^2.1.0",
@@ -35,8 +34,7 @@
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-import": "^2.27.5",
     "jest": "^29.5.0",
-    "jest-junit": "^13",
-    "npm-check-updates": "^16",
+    "jest-junit": "^15",
     "projen": "^0.71.7",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
